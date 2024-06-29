@@ -36,6 +36,7 @@ cd "${WORK}" || exit 1
 
 # Setting Toolchain Path
 PATH="${WORK}/clang/bin:$PATH"
+alias ld=ld.lld
 
 # Enter Kernel root directory
 cd "${KERNEL_SRC}" || exit 1
