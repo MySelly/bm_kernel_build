@@ -3,8 +3,8 @@
 set -e -x
 
 # Kernel Source
-KERNEL_SOURCE=https://github.com/lazycodebuilder/recoverykernel_rmx1851.git
-KERNEL_BRANCH=test
+KERNEL_SOURCE=https://github.com/RN10S-Development/kernel_redmi_rosemary
+KERNEL_BRANCH=lineage-20
 KERNEL_DEFCONFIG=sdm670-perf_defconfig
 
 # Prebuilt Proton Clang Toolchain
