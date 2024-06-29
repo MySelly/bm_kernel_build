@@ -15,6 +15,7 @@ CLANG_BRANCH=lineage-20.0
 make_fun() {
   make O=out ARCH=arm64 CC=clang \
   LLVM=1 LLVM_IAS=1 \
+  CROSS_COMPILE_ARM32=arm-linux-gnueabi- "$@"
 }
 
 # Work Path
