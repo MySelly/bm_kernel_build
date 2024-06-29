@@ -5,11 +5,11 @@ set -e -x
 # Kernel Source
 KERNEL_SOURCE=https://github.com/RN10S-Development/kernel_redmi_rosemary
 KERNEL_BRANCH=lineage-20
-KERNEL_DEFCONFIG=sdm670-perf_defconfig
+KERNEL_DEFCONFIG=https://github.com/RN10S-Development/kernel_redmi_rosemary/blob/lineage-20/arch/arm64/configs/rosemary_defconfig
 
 # Prebuilt Proton Clang Toolchain
-CLANG=https://github.com/kdrag0n/proton-clang.git
-CLANG_BRANCH=master
+CLANG=https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b
+CLANG_BRANCH=lineage-20.0
 
 # Setup make Command
 make_fun() {
